@@ -1,0 +1,61 @@
+:root {
+  --primary-text-color: #212121;
+  --secondory-text-color: #757575;
+  --text-title-color: #ffffff;
+  --accent-color: #2196f3;
+}
+.page {
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+/* Шапка сайта */
+.logo {
+  color: var(--primary-text-color);
+}
+
+.logos {
+  color: var(--accent-color);
+}
+
+.site-nav .link {
+  color: var(--primary-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* Герой */
+
+.hero {
+  background-color: #2f303a;
+  color: #ffffff;
+}
+.hero-title {
+  color: var(--text-title-color);
+}
+
+/* Особенности */
+
+.feature-list .title {
+  color: var(--primary-text-color);
+}
+.feature-list .text {
+  color: var(--secondory-text-color);
+}
+/* Чем мы занимаемся */
+
+/* Наша команда */
+
+/* Подвал */
+
+/* Первичный цфет текста #212121 */
+/* Вторичный цвет текста #757575 */
+/* Белый цвет текста #FFFFFF */
+/* Синие элементы текста и лого #2196F3 */
+/* Цвета фонов секций 
+#2F303A #E5E5E5 #F5F4FA */
