@@ -105,6 +105,20 @@
   color: rgba(255, 255, 255, 0.6);
 }
 
+/* CSS для portfolio.html */
+
+/* Кнопки */
+
+.button.primery {
+  color: var(--primary-text-color);
+  background-color: var(--secondary-bg-color);
+}
+.button.primery:hover,
+.button.primery:focus {
+  color: var(--text-title-color);
+  background-color: var(--accent-color);
+}
+
 /* Первичный цфет текста #212121 */
 /* Вторичный цвет текста #757575 */
 /* Белый цвет текста #FFFFFF */
