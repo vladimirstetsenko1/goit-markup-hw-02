@@ -3,6 +3,10 @@
   --secondory-text-color: #757575;
   --text-title-color: #ffffff;
   --accent-color: #2196f3;
+  --primary-bg-color: #ffffff;
+  --secondary-bg-color: #f5f4fa;
+  --top-line-bg-color: #ececec;
+  --footer-bg-color: #2f303a;
 }
 .page {
   color: var(--primary-text-color);
@@ -13,6 +17,7 @@
 }
 
 /* Шапка сайта */
+
 .logo {
   color: var(--primary-text-color);
 }
@@ -28,17 +33,30 @@
 .site-nav .link:focus {
   color: var(--accent-color);
 }
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+.contacts .contact {
+  color: var(--secondory-text-color);
+}
+.contacts .contact:hover,
+.contacts .contact:focus {
+  color: var(--accent-color);
+}
 
 /* Герой */
 
 .hero {
-  background-color: #2f303a;
-  color: #ffffff;
+  background-color: var(--footer-bg-color);
+  color: var(--text-title-color);
 }
 .hero-title {
   color: var(--text-title-color);
 }
-
+.button {
+  color: var(--text-title-color);
+  background-color: var(--accent-color);
+}
 /* Особенности */
 
 .feature-list .title {
@@ -49,9 +67,43 @@
 }
 /* Чем мы занимаемся */
 
+.section .work {
+  color: var(--primary-text-color);
+}
+
 /* Наша команда */
 
+.user {
+  background-color: var(--secondary-bg-color);
+}
+
+.user .galery {
+  color: var(--primary-text-color);
+}
+.galery-item {
+  background-color: var(--primary-bg-color);
+}
+.title {
+  color: var(--primary-text-color);
+}
+.text {
+  color: var(--secondory-text-color);
+}
+
 /* Подвал */
+
+.footer-menu {
+  background-color: var(--footer-bg-color);
+}
+.footer-logo {
+  color: var(--text-title-color);
+}
+.footer-address {
+  color: var(--text-title-color);
+}
+.footer-contact {
+  color: rgba(255, 255, 255, 0.6);
+}
 
 /* Первичный цфет текста #212121 */
 /* Вторичный цвет текста #757575 */
