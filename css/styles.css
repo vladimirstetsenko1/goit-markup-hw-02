@@ -82,6 +82,7 @@
 }
 
 .button {
+  font-family: Roboto;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.9;
@@ -137,17 +138,20 @@
 }
 
 .title {
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 1.14;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
+  text-align: center;
+
   color: var(--primary-text-color);
 }
 
 .text {
-  font-size: 14px;
-  line-height: 1.71;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondory-text-color);
 }
@@ -186,9 +190,28 @@
   color: rgba(255, 255, 255, 0.6);
 }
 
+.address-list .footer-address:focus,
+.address-list .footer-address:hover {
+  color: var(--accent-color);
+}
+
+.address-list .footer-contact:focus,
+.address-list .footer-contact:hover {
+  color: var(--accent-color);
+}
+
 /* CSS для portfolio.html */
 
 /* Кнопки */
+
+.button.primery {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
 
 .button.primery {
   color: var(--primary-text-color);
