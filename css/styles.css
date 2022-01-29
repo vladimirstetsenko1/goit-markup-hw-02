@@ -97,6 +97,25 @@
 
 /* Особенности */
 
+.title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-text-color);
+}
+
+.text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondory-text-color);
+}
+
 .feature-list .title {
   color: var(--primary-text-color);
 }
@@ -137,16 +156,15 @@
   background-color: var(--primary-bg-color);
 }
 
-.title {
+.headline {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   text-align: center;
-  color: var(--primary-text-color);
+  letter-spacing: 0.03em;
 }
 
-.text {
+.tagline {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.19;
@@ -207,7 +225,7 @@
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.6;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -225,15 +243,21 @@
 
 /* Наши работы */
 
-.desk {
+.caption {
+  font-weight: bold;
   font-size: 18px;
-  line-height: 1.55;
-  letter-spacing: 0.03em;
+  line-height: 2;
+  font-style: normal;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
 }
 
-.project-item .desc {
-  color: var(--text-title-color);
-  background-color: var(--accent-color);
+.lead {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: var(--secondory-text-color);
 }
 
 /* Первичный цвет текста #212121 */
